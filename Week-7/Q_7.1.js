@@ -13,6 +13,7 @@ Input Format:The first and the only argument contains an integer array, A.
  Explanation 2: The subarray [4,-1,2,1] has the maximum possible sum of 
 */
 
+// Time complexity Object(N) | Space complexity O(1)
 const maxSum=  (arr)=>{
     let maxSum=arr[0];
     let sum=0;

@@ -4,6 +4,8 @@ Example: Given the following matrix: [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ]
 You should return[1, 2, 3, 6, 9, 8, 7, 4, 5]
 */
 
+// Time complexity Object(N) | Space complexity O(N)
+//  Where N is total number of elements in the matrix
 const spiralMatrixTraversal=(arr)=>{
 
     const result=[];

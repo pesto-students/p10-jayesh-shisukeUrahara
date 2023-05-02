@@ -15,6 +15,8 @@ Expected Auxiliary Space: O(1)
 Constraints: 1 <= N <= 10^6 0 <= A[i] <= 2
 */
 
+// Time complexity Object(N) | Space complexity O(1)
+
 const sortZeroesOnesAndTwos= (arr)=>{
     let map= new Map();
     //  count 0s , 1s and 2s

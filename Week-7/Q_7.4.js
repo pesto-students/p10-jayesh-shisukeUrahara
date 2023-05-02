@@ -15,6 +15,8 @@ Output: 5
 
 */
 
+// Time complexity O(N) | Space complexity O(1)
+
 const calculateMaxProfit= (arr)=>{
     let maxProfit=0;
     let left=0;

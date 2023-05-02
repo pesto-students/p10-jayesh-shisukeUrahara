@@ -12,6 +12,7 @@ Explanation 2:Pair (20, -10) gives a difference of 30 i.e 20 - (-10) => 20 + 10 
 
 */
 
+// Time complexity O(N) | Space complexity O(N)
 const pairWithGivenDifference=(arr,diff)=>{
     let map=new Map();
 
