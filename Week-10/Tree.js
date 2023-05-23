@@ -9,15 +9,15 @@ class TreeNode
   }
 }
 
-function insertIntoTree(i, arr)
-{
-  let curr = null;
-  if(i < arr.length)
-  {
-    curr = new TreeNode(arr[i]);
-    curr.left = insertIntoTree(2*i + 1, arr);
-    curr.right = insertIntoTree(2*i + 2, arr);
+function insertIntoTree(i, arr) {
+  if (i >= arr.length || arr[i] === null) {
+    return null;
   }
+
+  const curr = new TreeNode(arr[i]);
+  curr.left = insertIntoTree(2 * i + 1, arr);
+  curr.right = insertIntoTree(2 * i + 2, arr);
+
   return curr;
 }
 
